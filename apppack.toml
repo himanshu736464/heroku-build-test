@@ -1,0 +1,4 @@
+[build]
+system = "buildpack"
+builder = "heroku/builder:22"
+buildpacks = ["heroku/nodejs", "heroku/python", "heroku/procfile"]
